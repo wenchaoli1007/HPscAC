@@ -17,6 +17,7 @@ metrics.
 
 ## Installation of HPscAC
 install.packages("devtools")
+
 devtools::install_github("wenchaoli1007/HPscAC")
 
 ## References
