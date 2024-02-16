@@ -15,4 +15,11 @@ metrics.
 
 ![Workflow of HPscAC](https://github.com/wenchaoli1007/HPscAC/blob/main/data/workflow.png)
 
+## Installation of HPscAC
+install.packages("devtools")
+devtools::install_github("wenchaoli1007/HPscAC")
+
+## References
+Cell-Type-Specific Aging Clocks Unveil Inter-Individual Heterogeneity in Immune Aging and Rejuvenation during Infection and Vaccination
+
 
