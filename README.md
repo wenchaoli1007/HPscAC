@@ -13,6 +13,6 @@ European ancestry aged 18 to 97 years. Focusing on the five most prevalent cell 
 independent aging clocks for each using machine learning (LASSO and random forest) and deep learning (PointNet) methods, assessing performance through various 
 metrics.
 
-![Workflow of HPscAC]()
+![Workflow of HPscAC](https://github.com/wenchaoli1007/HPscAC/blob/main/data/workflow.png)
 
 
