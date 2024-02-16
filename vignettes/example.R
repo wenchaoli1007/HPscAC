@@ -6,24 +6,7 @@ library(HPscAC)
 library(glmnet)
 library(purrr)
 
-setwd("/Users/wli20/hzi-li/project/age/package/HPscAC/data/")
-
-### gene names in the model are using ensembl annotation
-### strictly change the colname for cell type as "celltype" in metadata
-### strictly change the donor ID as "donor_id"
-### strictly change the age as "age"
-### strictly change the cell types into: CD4T, CD8T, MONO, NK, B
-
-### load models and features ###
-
-# cd4t_model = readRDS("./CD4T_model.RDS")
-# cd8t_model = readRDS(paste0("CD8T_models.RDS"))[[7]]
-# mono_model = readRDS("MONO_model.RDS")
-# nk_model = readRDS(paste0("NK", "_models.RDS"))[[7]]
-# b_model = readRDS(paste0("B", "_models.RDS"))[[11]]
-# 
-# model_set = list(cd4t_model, cd8t_model, mono_model, nk_model, b_model)
-# names(model_set) = c("CD4T", "CD8T", "MONO", "NK", "B")
+setwd("~/HPscAC/data/")
 
 model_set = readRDS("./all_model.RDS")
 feature_set = readRDS("./all_model_inputfeatures.RDS")
