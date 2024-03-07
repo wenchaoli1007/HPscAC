@@ -1,4 +1,3 @@
-
 library(Seurat)
 library(dplyr)
 library(readr)
@@ -29,8 +28,11 @@ age_per_donor = Age_Donor(predict_res)
 ### visualization
 
 # density plot #
-predict_res = data.frame(read_tsv(system.file("data", "demo_res.txt", package = "HPscAC")))
-ggplot(predict_res, aes(x=Prediction, fill=condition)) +
+predict_res = data.frame(read_tsv(system.file("data", "predict_res.txt", package = "HPscAC")))
+predict_res = predict_res %>% filter(vaccine == "BMR")
+predict_res_plot = predict_res[, c("donor_id", "age", "Prediction", "condition")]
+  
+ggplot(predict_res, aes(x = Prediction, fill = condition)) +
   geom_density(alpha=0.5)+
   theme_classic() +
   facet_wrap(~group, ncol = 4) +
