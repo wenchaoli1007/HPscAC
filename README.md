@@ -15,6 +15,9 @@ metrics.
 
 ![Workflow of HPscAC](https://github.com/wenchaoli1007/HPscAC/blob/main/data/workflow.png)
 
+## Please install the following packages
+glmnet, dplyr, ggplot2, purrr
+
 ## Installation of HPscAC
 install.packages("devtools")
 
