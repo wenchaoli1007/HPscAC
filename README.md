@@ -1,5 +1,5 @@
-# HPscAC
-### HPscAC: the R implementation of the cell-type-specific transcriptome aging clocks for human PBMC. 
+# scImmunoAging
+### scImmunoAging: the R implementation of the cell-type-specific transcriptome aging clocks for human PBMC. 
 
 In this study, we established a robust cell-type-specific aging clock, covering monocytes, CD4+ T, CD8+ T, NK and B cells, based on single-cell transcriptomic 
 profiles from 1081 PBMC samples from European healthy adults. Our research sheds light on understanding biological age alterations in response to vaccinations 
